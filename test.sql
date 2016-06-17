@@ -10,10 +10,12 @@ CREATE TABLE person (
     last_name TEXT,
     age INTEGER
 );
+
 CREATE TABLE person_pet (
     person_id INTEGER,
     pet_id INTEGER
 );
+
 CREATE TABLE pet (
     id INTEGER PRIMARY KEY,
     name TEXT,
@@ -57,7 +59,7 @@ INSERT INTO person_pet (person_id, pet_id)
 
 INSERT INTO car (id, car_name, model_type, year)
 	VALUES	(0, "i30", "Hyundai", 2006),
-	(1, "e200", Mercedes", 2004)
+	(1, "e200", "Mercedes", 2004)
 ;
 
 INSERT INTO person_car (person_id, car_id)
