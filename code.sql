@@ -67,3 +67,6 @@ INSERT INTO person_car (person_id, car_id)
 	(1,1),
 	(2,1)
 ;
+
+ALTER TABLE person ADD COLUMN height INTEGER;
+ALTER TABLE person ADD COLUMN weight INTEGER;
