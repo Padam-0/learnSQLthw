@@ -1,0 +1,6 @@
+-- Create tables with IDs, no attributes
+
+CREATE TABLE staff (id INTEGER PRIMARY KEY);
+CREATE TABLE pet (id INTEGER PRIMARY KEY);
+CREATE TABLE record (id INTEGER PRIMARY KEY);
+CREATE TABLE owner (id INTEGER PRIMARY KEY);
